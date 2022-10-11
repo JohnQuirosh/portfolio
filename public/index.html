@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=" utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-motion/build/react-motion.js"></script>
+  <title>John Quiros</title>
+</head>
+
+<body>
+  <div class="loader_wrap">
+    <div class="loader">
+      <main>
+        <svg class="ap" viewBox="0 0 128 256" width="128px" height="256px" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="ap-grad1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="hsl(223,90%,55%)" />
+              <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+            </linearGradient>
+            <linearGradient id="ap-grad2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="hsl(193,90%,55%)" />
+              <stop offset="50%" stop-color="hsl(223,90%,55%)" />
+              <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+            </linearGradient>
+          </defs>
+          <circle class="ap__ring" r="56" cx="64" cy="192" fill="none" stroke="#ddd" stroke-width="16"
+            stroke-linecap="round" />
+          <circle class="ap__worm1" r="56" cx="64" cy="192" fill="none" stroke="url(#ap-grad1)" stroke-width="16"
+            stroke-linecap="round" stroke-dasharray="87.96 263.89" />
+          <path class="ap__worm2" d="M120,192A56,56,0,0,1,8,192C8,161.07,16,8,64,8S120,161.07,120,192Z" fill="none"
+            stroke="url(#ap-grad2)" stroke-width="16" stroke-linecap="round" stroke-dasharray="87.96 494" />
+        </svg>
+      </main>
+    </div>
+  </div>
+  <div id="root" class="port-content" style="display: none;"></div>
+</body>
+<script>
+  $(".nav__list").css("display", "none");
+  $('.nav__hamburger').click(function () {
+    $('.nav__list').fadeToggle(250);
+  });
+  $('.nav__list-item').click(function () {
+    $('.nav__list').fadeToggle(250);
+  });
+
+  $(document).ready(function () {
+    setTimeout(function () {
+      $(".loader_wrap").fadeOut(1);
+    }, 3000);
+
+    setTimeout(function () {
+      $(".port-content").fadeIn(1500);
+    }, 3000);
+  });
+</script>
+
+</html>

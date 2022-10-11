@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --hue: 223;
+  --bg: hsl(var(--hue), 10%, 90%);
+  --fg: hsl(var(--hue), 10%, 10%);
+}
+
+body {
+  background-color: var(--bg);
+  transition: background-color 0.3s;
+}
+
+.loader_wrap {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: #17181C;
+}
+
+.loader {
+  position: relative;
+  height: 0px;
+  top: 10rem;
+}
+
+.fade {
+  opacity: 1;
+  visibility: hidden;
+}
+
+:root {
+  --hue: 223;
+  --bg: hsl(var(--hue), 10%, 90%);
+  --fg: hsl(var(--hue), 10%, 10%);
+  --font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+}
+
+
+.ap {
+  width: 8em;
+  height: 16em;
+}
+
+.ap__ring {
+  stroke: hsla(var(--hue), 10%, 10%, 0.15);
+  transition: stroke 0.3s;
+}
+
+.ap__worm1,
+.ap__worm2 {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.ap__worm1 {
+  animation-name: worm1;
+}
+
+.ap__worm2 {
+  animation-name: worm2;
+  visibility: hidden;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(var(--hue), 10%, 10%);
+    --fg: hsl(var(--hue), 10%, 90%);
+  }
+
+  .ap__ring {
+    stroke: hsla(var(--hue), 10%, 90%, 0.1);
+  }
+}
+
+@keyframes worm1 {
+  from {
+    animation-timing-function: ease-in-out;
+    stroke-dashoffset: -87.96;
+  }
+
+  20% {
+    animation-timing-function: ease-in;
+    stroke-dashoffset: 0;
+  }
+
+  60% {
+    stroke-dashoffset: -791.68;
+    visibility: visible;
+  }
+
+  60.1%,
+  to {
+    stroke-dashoffset: -791.68;
+    visibility: hidden;
+  }
+}
+
+@keyframes worm2 {
+
+  from,
+  60% {
+    stroke-dashoffset: -87.96;
+    visibility: hidden;
+  }
+
+  60.1% {
+    animation-timing-function: cubic-bezier(0, 0, 0.5, 0.75);
+    stroke-dashoffset: -87.96;
+    visibility: visible;
+  }
+
+  77% {
+    animation-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.88);
+    stroke-dashoffset: -340;
+    visibility: visible;
+  }
+
+  to {
+    stroke-dashoffset: -669.92;
+    visibility: visible;
+  }
+}
+
+/* Mobile nav */
+ul>li {
+  padding-right: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+}
