@@ -13,7 +13,7 @@ A clean and simple portfolio template built using React, if want a template buil
 ### Setup
 
 ```shell
-git clone https://github.com/rajshekhar26/cleanfolio
+git clone https://github.com/JohnQuirosh/portfolio
 cd cleanfolio
 ```
 
@@ -52,7 +52,7 @@ yarn start
 
 `"homepage": "https://rajshekhar26.github.io/cleanfolio"`
 
-with `"homepage": "https://yourusername.github.io"`.
+with `"homepage": "https://github.com/JohnQuirosh/portfolio"`.
 
 - Push the changes.
 
@@ -62,6 +62,8 @@ with `"homepage": "https://yourusername.github.io"`.
 yarn build
 yarn deploy
 ```
+
+# Use npm?
 
 ## License
 
