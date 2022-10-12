@@ -63,6 +63,8 @@ yarn build
 yarn deploy
 ```
 
+# Use npm?
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
