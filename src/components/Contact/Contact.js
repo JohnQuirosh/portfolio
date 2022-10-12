@@ -12,7 +12,7 @@ const Contact = () => {
           Email me
         </span>
       </a>
-      <h2>section in development...</h2>
+      <h2>section in development..</h2>
     </section>
   )
 }
