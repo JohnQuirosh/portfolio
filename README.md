@@ -1,6 +1,6 @@
 # Portfolio
 
-A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Cleanfolio Minimal](https://github.com/JohnQuirosh/portfolio).
+A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Portofolio](https://github.com/JohnQuirosh/portfolio).
 
 ## Preview
 
