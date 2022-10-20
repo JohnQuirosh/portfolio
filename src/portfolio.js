@@ -10,7 +10,7 @@ const about = {
   resume: 'assets/John Quiros Herrera.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/johnquiros/',
-    github: 'https://github.com/JohnQuirosh',
+    github: 'https://www.linkedin.com/in/johnquiros/',
   },
 }
 
