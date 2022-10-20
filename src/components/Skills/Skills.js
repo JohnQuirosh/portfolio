@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="carousel">
           {skills.map((skill) => (
             <article key={uniqid()} className='card'>
-              <h3>{skill}</h3>
+              <h2>{skill}</h2>
             </article>
           ))}
         </div>

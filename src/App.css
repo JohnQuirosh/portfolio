@@ -31,18 +31,20 @@
 }
 
 body::-webkit-scrollbar {
-  width: 5px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #fff;
+  width: 10px;
+  height: 20px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #2978B5;
-  border-radius: 20px;
+  background: linear-gradient(to bottom,
+      #ff850a,
+      #ff3474);
+  border-radius: 50px;
 }
 
+body::-webkit-scrollbar-track {
+  background: #474747;
+}
 
 @keyframes fadeIn {
   0% {
