@@ -10,9 +10,11 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "bootstrap": "^5.2.2",
     "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^17.0.2",
     "react-qr-reader": "^3.0.0-beta-1",
     "react-scripts": "^4.0.3",
@@ -53,5 +55,30 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2"
+  },
+  "rules": {
+    "jsx-a11y/alt-text": [
+      2,
+      {
+        "elements": [
+          "img",
+          "object",
+          "area",
+          "input[type=\"image\"]"
+        ],
+        "img": [
+          "Image"
+        ],
+        "object": [
+          "Object"
+        ],
+        "area": [
+          "Area"
+        ],
+        "input[type=\"image\"]": [
+          "InputImage"
+        ]
+      }
+    ]
   }
 }

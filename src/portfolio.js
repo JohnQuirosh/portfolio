@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'John Quiros',
   role: 'Web Developer',
-  description:'Im a coding enthusiast. I love simple things so I design and code nice and simple things. I love what I do. I am looking for a challenging job where I can continue my studies while I can share my experience and knowledge with my colleagues.',
+  description: 'Im a coding enthusiast. I love simple things so I design and code nice and simple things. I love what I do. I am looking for a challenging job where I can continue my studies while I can share my experience and knowledge with my colleagues.',
   resume: 'https://www.linkedin.com/in/johnquiros/',
   social: {
     linkedin: 'https://www.linkedin.com/in/johnquiros/',
@@ -59,6 +59,7 @@ const skills = [
   "Laravel",
   "Angular"
 ]
+
 
 const contact = {
   email: 'johnquirosh@gmail.com',
