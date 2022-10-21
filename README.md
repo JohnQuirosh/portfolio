@@ -10,6 +10,13 @@ A clean and simple portfolio template built using React, if want a template buil
 
 ## Instructions
 
+### Usea npm
+
+```shell
+npm i react-scripts
+npm start
+```
+
 ### Setup
 
 ```shell
@@ -62,8 +69,6 @@ with `"homepage": "https://github.com/JohnQuirosh/portfolio"`.
 yarn build
 yarn deploy
 ```
-
-# Use npm?
 
 ## License
 
