@@ -59,7 +59,7 @@ yarn start
 
 `"homepage": "https://rajshekhar26.github.io/cleanfolio"`
 
-with `"homepage": "https://github.com/JohnQuirosh/portfolio"`.
+with `"homepage": "https://yourdomain.com"`.
 
 - Push the changes.
 
