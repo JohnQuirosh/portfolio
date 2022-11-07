@@ -45,7 +45,12 @@
   </div>
   <div id="root" class="port-content" style="display: none;"></div>
 </body>
+  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <script>
+    // API WEGLOT TRANSLATE LENGUAJE PLUGIN
+    Weglot.initialize({
+    api_key: 'wg_dc2904744156626dba45be3a64e293470'
+  });
   $(".nav__list").css("display", "none");
   $('.nav__hamburger').click(function () {
     $('.nav__list').fadeToggle(250);
