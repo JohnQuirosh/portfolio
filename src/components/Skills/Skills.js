@@ -8,15 +8,16 @@ const Skills = () => {
   return (
     <section className='section skills' id='skills'>
       <h2 className='section__title'>Skills</h2>
-      <ul className='skills__list'>
-        {skills.map((skill) => (
-          <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
-          </li>
-        ))}
-      </ul>
+      <div className="content" >
+        <div className="carousel">
+          {skills.map((skill) => (
+            <article key={uniqid()} className='card'>
+              <h2>{skill}</h2>
+            </article>
+          ))}
+        </div>
+      </div>
     </section>
   )
 }
-
 export default Skills
