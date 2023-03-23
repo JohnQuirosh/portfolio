@@ -8,6 +8,13 @@ A clean and simple portfolio template built using React, if want a template buil
 
 ## Instructions
 
+### Usea npm
+
+```shell
+npm i react-scripts
+npm start
+```
+
 ### Setup
 
 ```shell
@@ -50,7 +57,7 @@ yarn start
 
 `"homepage": "https://rajshekhar26.github.io/cleanfolio"`
 
-with `"homepage": "https://github.com/JohnQuirosh/portfolio"`.
+with `"homepage": "https://yourdomain.com"`.
 
 - Push the changes.
 

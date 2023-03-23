@@ -11,7 +11,7 @@
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
-  --shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   --back-btn-ui: #28282d;
   --color-btn-ui: #fff;
   animation: fadeIn2 0.9s;
@@ -23,7 +23,7 @@
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #B5D7F0;
-  --shadow: rgba(181, 215, 240, 0.185) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  --shadow: rgba(119, 117, 117, 0.35) 0px 5px 15px;
   --text-color: #151515;
   --back-btn-ui: #B5D7F0;
   --color-btn-ui: #28282d;
@@ -31,18 +31,20 @@
 }
 
 body::-webkit-scrollbar {
-  width: 9px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #fff;
+  width: 10px;
+  height: 20px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #2978B5;
-  border-radius: 20px;
+  background: linear-gradient(to bottom,
+      #ff850a,
+      #ff3474);
+  border-radius: 50px;
 }
 
+body::-webkit-scrollbar-track {
+  background: #474747;
+}
 
 @keyframes fadeIn {
   0% {

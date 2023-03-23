@@ -22,20 +22,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.loader_wrap {
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background: #17181C;
-}
-
-.loader {
-  position: relative;
-  height: 0px;
-  top: 10rem;
-}
-
 .fade {
   opacity: 1;
   visibility: hidden;

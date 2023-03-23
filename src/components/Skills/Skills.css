@@ -1,12 +1,77 @@
-.skills__list {
-  max-width: 450px;
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.content {
+  width: 100%;
 }
 
-.skills__list-item {
-  margin: 0.5em;
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  border-radius: 15px;
+  min-height: 140px;
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(7px);
+  box-shadow: var(--shadow);
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+}
+
+.card:nth-child(4) {
+  background: linear-gradient(-229deg, #88F7F9, #048FFF);
+}
+
+.card:nth-child(5) {
+  background: linear-gradient(-229deg, #0093E9, #80D0C7);
+}
+
+.card:nth-child(6) {
+  background: linear-gradient(-229deg, #cf91ff, #5782F5);
+}
+
+.card:nth-child(7) {
+  background: linear-gradient(-229deg, #642B73, #C6426E);
+}
+
+.card:nth-child(8) {
+  background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+}
+
+.card:nth-child(9) {
+  background: linear-gradient(-229deg, #cf91ff, #5782F5);
+}
+
+.card:nth-child(10) {
+  background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+}
+
+.card:nth-child(11) {
+  background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+}
+
+.card:nth-child(12) {
+  background: linear-gradient(-229deg, #642B73, #C6426E);
 }

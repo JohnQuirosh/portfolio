@@ -1,15 +1,13 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://johnquiros.xyz',
   title: 'JQ.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'John Quiros',
   role: 'Web Developer',
-  description:'Im a coding enthusiast. I love simple things so I design and code nice and simple things. I love what I do. I am looking for a challenging job where I can continue my studies while I can share my experience and knowledge with my colleagues.',
-  resume: 'https://www.linkedin.com/in/johnquiros/',
+  description: 'Im a coding enthusiast. I love simple things so I design and code nice and simple things. I love what I do. I am looking for a challenging job where I can continue my studies while I can share my experience and knowledge with my colleagues.',
+  resume: 'https://johnquiros.xyz/jqh.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/johnquiros/',
     github: 'https://github.com/JohnQuirosh',
@@ -17,8 +15,6 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Jungle Life',
     description:
@@ -48,17 +44,18 @@ const projects = [
 const skills = [
   'HTML',
   'CSS',
+  'SASS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Vuejs',
-  'SASS',
+  'Jquery',
+  'Vue.js',
   'Material UI',
   'Git',
+  "Github"
   "PHP",
-  "Laravel",
-  "Angular"
 ]
+
 
 const contact = {
   email: 'johnquirosh@gmail.com',
