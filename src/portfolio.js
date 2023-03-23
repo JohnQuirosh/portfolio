@@ -52,8 +52,8 @@ const skills = [
   'Vue.js',
   'Material UI',
   'Git',
-  "PHP",
   "Github"
+  "PHP",
 ]
 
 
