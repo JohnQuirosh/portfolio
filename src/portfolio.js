@@ -44,16 +44,16 @@ const projects = [
 const skills = [
   'HTML',
   'CSS',
+  'SASS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Vuejs',
-  'SASS',
+  'Jquery',
+  'Vue.js',
   'Material UI',
   'Git',
   "PHP",
-  "Laravel",
-  "Angular"
+  "Github"
 ]
 
 
